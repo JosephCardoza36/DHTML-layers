@@ -1,0 +1,92 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: calc(100% - 16px);
+}
+
+main {
+    display: block;
+    height: 100%;
+    min-width: 700px;
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-image: url(../images/trebleclef.png);
+    background-repeat: no-repeat;
+    background-position: center 98%;
+    background-size: 60%;
+}
+
+h1 {
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    font-size: 3.5em;
+    margin: 10px auto;
+    text-align: center;
+    text-shadow: 5px 3px 10px #DFC303, 5px 3px 10px #DFC303;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    float: left;
+    width: calc(20% - 2px);
+    height: 1.75em;
+    text-align: center;
+    font-size: 1.25em;
+    padding-top: .5em;
+    background: #dfc303;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    cursor: pointer;
+}
+
+a:link {
+    text-decoration: none;
+    color: #0C6CC5;
+    font-weight: 700;
+}
+
+a:visited {
+    color: #EA6DF1;
+    font-weight: 700;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #CF1627;
+    font-weight: 700;
+}
+
+li:hover {
+    background-color: #e3d889;
+}
+
+section {
+    margin: 5em auto 0;
+    width: 140px;
+    height: 150px;
+    text-align: center;
+    border: thick solid #006633;
+    background-color: rgba(102, 204, 204, .35);
+    border-radius: 15px;
+}
+
+img {
+    margin-top: 10px;
+}
+
+#instzero,
+#instone,
+#insttwo,
+#instthree {
+    display: none;
+}
